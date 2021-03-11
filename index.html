@@ -5,9 +5,415 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
 </head>
+
+<style>
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.master{
+    width: 100%; 
+    background-image: url("slide01.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: 13%;
+}
+
+ul{
+    list-style: none;
+}
+
+.master, .template{
+    float:left;
+    color:white;
+     
+}
+
+.master,span{
+    color: rgb(230, 216, 216);
+}
+
+.master a{
+    float:right;
+    margin-right: 40px;
+    text-decoration: none;
+    color:white;
+}
+.hielo{
+    width: 60%; 
+    margin: 0 auto;
+    margin-top: 20%;
+    text-align: center;
+    color:white;
+}
+
+.hielo p{
+    letter-spacing: 2px;
+}
+.hielo span{
+    color: rgb(230, 216, 216);
+}
+ 
+.hielo hr{
+    width:28%;
+    color: whitesmoke;
+}
+.hielo h1{
+    font-size: 60px;
+    font-weight: 200px;
+}
+ /*second big box starta*//*second big box starta*//*second big box starta*//*second big box starta*/
+
+      
+.secondbox{
+    width: 80%;
+    height: 650px; 
+    background-color: whitesmoke;
+    clear: both;
+    padding: 5% 10%;
+    
+}
+ 
+.left{
+    width: 47%;
+     padding-bottom: 5%;
+    background-color: white;
+    float: left;
+    text-align:center; 
+ 
+}
+
+.left img{
+    width:100%;
+}
+.left h5{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.left hr{
+    width:50%;
+}
+.left h3{
+    text-align: center;
+    font-weight: 150px;
+    letter-spacing: 1px;
+}
+
+ 
+
+#alig{
+    margin: 10PX 30px;
+    text-align:left;
+}
+
+.left button{
+    text-align:center;
+  padding: 10px 25px;
+    background: white;
+    border-color: whitesmoke;
+}
+/*right box*//*right box*//*right box*//*right box*//*right box*/
+.right img{
+    width:100%;
+}
+.right h5{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.right hr{
+    width:50%;
+}
+.right h3{
+    text-align: center;
+    font-weight: 150px;
+    letter-spacing: 1px;
+}
+
+.right{
+    width: 47%;
+    background-color: white;
+    float: right;
+    text-align: center;  
+    padding-bottom: 5%;
+}
+
+#deo{
+    margin: 10PX 30px;
+    text-align:left;
+}
+
+.right button{
+   
+  padding: 10px 25px;
+    background: white;
+    border-color: whitesmoke;
+
+}
+/*third- box starts*//*third- box *//*third- box *//*third- box */
+.thirdbox{
+    width: 100%; 
+    padding: 1% 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed; 
+     clear: both;
+}
+
+.thirdbox p{
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    padding-top: 3%;
+}
+.thirdbox hr{
+    width: 50%;
+}
+.thirdbox h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 3%;
+    letter-spacing: 1px;
+    font-weight: 200px;
+    clear: both;
+}
+
+/* fourth big-box - starts*//* fourth big-box -starts*//* fourth big-box - starts*//* fourth big-box - starts*/
+
+.fourthbox{
+    width:80%; 
+    background-color:whitesmoke; 
+    padding-top: 1%; 
+    clear:both;
+    padding: 5% 10%;
+
+} 
+
+.fourthbox p{
+     text-align: center;
+     letter-spacing: 2px;
+     text-transform: uppercase; 
+ }
+
+ .fourthbox hr{
+     width:50%;
+}
+.fourthbox h3{
+    text-align: center;
+    padding-bottom: 2%;
+}
+ 
+.fourthbox img{
+     width:100%;
+     border:12px solid white;
+ }
+ .tleft{
+     width: 46%; 
+     float:left;
+ }
+ 
+ .tleft img{
+     width: 100%;
+ }
+ 
+ .tright img{
+     width:100%;
+ }
+
+ .tright{
+    width: 46%; 
+    float:right; 
+}
+.four{ 
+margin-top: 8%;
+}
+
+/*  footer - starts*//*  footer - starts*//*  footer - starts*/
+.footer{
+    width: 100%; 
+    background-color: black;
+    padding-top: 1%;
+
+}
+.footer p{
+    color:white;
+    text-align: center;
+    padding-top: 4%;
+}
+ .footer h4{
+     color:white;
+     text-align: center;
+    padding-bottom: 5%;
+
+ }
+
+
+
+ @media only screen and (max-width:800px){
+         .left{
+             width:100%;
+         }
+         .left, .h3, .h5, .p{
+             font-size: 30px;
+         }
+
+ }
+
+ @media only screen and (max-width:800px){
+     .right{
+        width:100%; 
+    }
+    .right, .h3, .h5, .p{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width:800px){
+     .left{
+        width:100%;
+    }
+    .left, .h2.p{
+        font-size: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width:800px){
+    .tleft{
+        width:100%;
+    }
+    .fourthbox, .h3, .p{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width:800px){
+     .tright{
+        width:100%;
+    }
+    
+}
+
+@media only screen and (max-width:800px){
+    .footer{
+        width:100%; 
+    }
+    .footer, .h3, .p{
+        font-size: 30px; 
+    }
+}
+</style>
 <body>
-    <h1>hello world </h1>
-    <p> well come to new github area</p>
+
+
+    <div class="master "> 
+
+        <ul>
+            <li class="template"> Hielo <span>by TEMPLATE</span> </li>
+            <li> <a href="#"> <i class="fa fa-bars"></i> &nbsp; Minu  </a>  </li>
+        </ul>
+
+            <div class="hielo ">
+                             <p><span>A FREE RESPONSIVE WEB SITE TEMPLATE BY </span> TEMPLATED</p>
+                             <hr>
+                             <h1>Hielo</h1>
+
+                          </div>
+
+    
+                        </div>
+<!--  second big box starts --> <!--  second big box  starts--> <!--  second big box  starts-->
+   
+                    <div class="secondbox clearfix">
+                         
+                            <div class="left">
+                                <img src="pic02.jpg" alt="">
+                                <h5>the more obscure Latin words</h5>
+                                <hr>
+                                <h3>Classical Latin literature</h3>
+                  
+                                <p id="alig">packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                                 <button>LEARN MORE</button>
+                            </div>
+
+
+                            <div class="right">
+                                <img src="pic03.jpg" alt="">
+                                <h5>the more obscure Latin words</h5>
+                                <hr>
+                                <h3>Classical Latin literature</h3>
+                                <p id="deo">packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                                 <button>LEARN MORE</button>
+
+                            </div>
+
+                       
+
+
+                       </div>
+                       <!-- third box--> <!-- third box--> <!-- third box--> <!-- third box--> <!-- third box--> <!-- third box-->
+                       <div class="thirdbox">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                           <hr>
+                           <h2>Their default model</h2>
+
+                       </div>
+
+
+                       <!--fouth big-box-->   <!--fouth big-box-->   <!--fouth big-box-->   <!--fouth big-box-->
+
+                       <div class="fourthbox clearfix">
+                                  
+                                       <p>packages and web page editors now use Lorem Ipsum as their</p>
+                                       <hr>
+                                       <h3> Web consectetur editors </h3>
+                                       <div class="tleft">
+                                        <img src="pic01.jpg" alt="">
+                                        <img class="four"  src="pic02.jpg" alt="">
+
+                                       </div>
+                                       <div class="tright">
+                                        <img src="pic03.jpg" alt="">
+                                        <img class="four" src="pic04.jpg" alt="">
+                                                
+                                       </div>
+                                    
+                                   
+                                    
+                       </div>
+
+                       <div class="footer">
+                          <p>  <i class="fa fa-twitter "></i> &nbsp; <i class="fa  fa-facebook"></i>&nbsp; <i class="fa fa-instagram"></i>
+                            &nbsp; <i class="fa fa fa-envelope-o"></i> </p>
+
+                        <h4> <span>&copy</span> Untitled. All rights reserved. </h4>
+
+                       </div>
 </body>
 </html>
